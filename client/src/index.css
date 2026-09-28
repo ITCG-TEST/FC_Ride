@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: "Baloo 2", sans-serif;
+}
+
+body {
+  background-color: #f2effc;
+  min-height: 100vh;
+}
+
+.card {
+  @apply rounded-[28px] bg-white shadow-card;
+}
+
+.input {
+  @apply w-full rounded-2xl border border-transparent bg-surface px-4 py-3 font-body text-ink outline-none transition focus:border-primary/40 focus:bg-white focus:ring-4 focus:ring-primary/15;
+}
+
+.btn-primary {
+  @apply rounded-2xl bg-primary px-5 py-3 font-display font-bold text-white shadow-softSm transition active:scale-[0.98] disabled:opacity-60;
+}
+
+.btn-ghost {
+  @apply rounded-2xl bg-white px-5 py-3 font-display font-bold text-ink shadow-card transition active:scale-[0.98];
+}
+
+.pill {
+  @apply rounded-full px-3 py-1 text-xs font-bold;
+}
