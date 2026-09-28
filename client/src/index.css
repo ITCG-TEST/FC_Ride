@@ -15,7 +15,7 @@ h3,
 }
 
 body {
-  background-color: #f2effc;
+  background-color: #eef2f6;
   min-height: 100vh;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .btn-ghost {
-  @apply rounded-2xl bg-white px-5 py-3 font-display font-bold text-ink shadow-card transition active:scale-[0.98];
+  @apply rounded-2xl border border-black/10 bg-white px-5 py-3 font-display font-bold text-ink shadow-card transition active:scale-[0.98];
 }
 
 .pill {

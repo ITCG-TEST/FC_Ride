@@ -12,8 +12,8 @@ export default defineConfig({
         name: "FC RIDE SQUAD",
         short_name: "FC Ride Squad",
         description: "Registration, live tracking, and ride board for a 450km group ride.",
-        theme_color: "#7C5CFF",
-        background_color: "#150F2B",
+        theme_color: "#0D9488",
+        background_color: "#EEF2F6",
         display: "standalone",
         start_url: "/",
         icons: [

@@ -38,7 +38,7 @@ export default function RideMap({ points = [], height = 260, live = false }) {
     // analysis — Leaflet only wants [lat, lng] pairs.
     const latLngs = points.map(([lat, lng]) => [lat, lng]);
 
-    const line = L.polyline(latLngs, { color: "#7C5CFF", weight: 4 }).addTo(layer);
+    const line = L.polyline(latLngs, { color: "#0D9488", weight: 4 }).addTo(layer);
     L.circleMarker(latLngs[0], START_STYLE).addTo(layer);
     if (!live && latLngs.length > 1) {
       L.circleMarker(latLngs[latLngs.length - 1], END_STYLE).addTo(layer);

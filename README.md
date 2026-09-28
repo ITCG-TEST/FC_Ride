@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# FC_Ride
-=======
 # FC RIDE SQUAD 🚴
 
 Registration + admin-approval + public board app for a 450km group bicycle ride.
@@ -77,4 +74,3 @@ Any host that can run a small Node process + persist a folder works (a small VPS
 Railway, etc.). Build the frontend with `npm run build` inside `client/` and serve the `dist/`
 folder (e.g. via the same Express server, Nginx, or a static host), pointing it at the deployed
 API's URL.
->>>>>>> a5fa34a (Test Initial commit)

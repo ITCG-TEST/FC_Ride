@@ -72,7 +72,7 @@ export default function LiveMap({ riders, trail, selectedId, onSelectRider, heig
     if (!layer) return;
     layer.clearLayers();
     if (trail && trail.length > 1) {
-      L.polyline(trail, { color: "#7C5CFF", weight: 3, dashArray: "6 6" }).addTo(layer);
+      L.polyline(trail, { color: "#0D9488", weight: 3, dashArray: "6 6" }).addTo(layer);
     }
   }, [trail]);
 
